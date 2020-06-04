@@ -24,9 +24,14 @@ word = "Cool"
 
 # Your code below:
 
+chars = "<<[]]]" # this could be a very long string with an even length.
+word = "Cool"
 
+length=len(chars)
+print(length)
 
-
+result = chars[:int(length/3)]+word+chars[int(length/3):]
+print(result)
 
 
 
